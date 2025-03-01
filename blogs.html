@@ -1,19 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogs</title>
 </head>
+
 <body>
     <header>
-
+        <nav>
+            <div>
+                <div>
+                    <img src="assets/logo.png" alt="">
+                </div>
+                <div>
+                    <p>Dev <span>Board</span></p>
+                </div>
+            </div>
+            <div>
+                <button>
+                    Back to Desk
+                </button>
+            </div>
+        </nav>
     </header>
     <main>
+        <h1>Blogs</h1>
+        <div>
+            <h4>Question-1: What are the different ways to select an element in DOM?</h4>
+            <p>We can select an element in DOM many ways. They are given bellow-
+                <br>
+                1. getElementById(id)
+                <br>
+                2.getElementsByClassName(className)
+                <br>
+                3. getElementsByTagName(tagName)
+                <br>
+                4. querySelector(selector)
+                <br>
+                5. querySelectorAll(selector)
 
+            </p>
+        </div>
+        <div>
+            <h4>Question-2: What is the difference between innerText, innerHTML and textContent?</h4>
+            <p>When we use innerText we can get or even set text from the selected element. But if we use innerHTML then
+                we can get and set new html content from the selected element. we can set new tags with innerHTML.
+                textContent property returns or sets the text from the selected element. </p>
+        </div>
+        <div>
+            <h4>Question-3: What is event delegation in the DOM?</h4>
+            <p>Event delegation in JavaScript is a pattern that efficiently handles events. Events can be added to a
+                parent element instead of adding to every single element. It refers to the process of using event
+                propagation to handle events at a higher level in the DOM than the element on which the event
+                originated.</p>
+        </div>
+        <div>
+            <h4>Question-4: What is event bubbling in the DOM?</h4>
+            <p>Event bubbling in the DOM is an event propagation method. An event triggered on a child element
+                propagates upward through its ancestors in the DOM tree. It allows parent elements to respond to events
+                triggered by their child elements.</p>
+        </div>
+        <div>
+            <h4>Question-5: How do you create, add, and remove element using JavaScript?</h4>
+            <p>We use following methods to to create, add, and remove an element using JavaScript- 
+                1. create element: document.createElement()
+                <br>
+                2. add element: appendChild()
+                <br>
+                3. remove element: remove()
+            </p>
+        </div>
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
