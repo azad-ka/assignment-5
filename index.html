@@ -43,7 +43,7 @@
         <section class="md:container mx-auto mb-4">
             <div class="flex justify-between">
                 <!-- task section -->
-                <div class="bg-[rgba(255,255,255,1)] w-9/12 mr-5">
+                <div class="bg-[rgba(255,255,255,1)] w-9/12 mr-5 rounded-xl">
                     <!-- discover -->
                     <div class="flex justify-between items-center gap-4 p-6 border-dashed border-b-2 border-[rgba(55,82,253,0.2)]">
                         <!-- assigned -->
@@ -65,120 +65,120 @@
                             </div>
                         </button>
                         <!-- date and time -->
-                        <div class=" bg-[rgba(244,247,255,1)] rounded-xl p-6 w-[260px]">
+                        <div class=" bg-[rgba(244,247,255,1)] rounded-xl p-6 w-[260px] flex items-center">
                             <img class="mb-2" src="assets/calender.png" alt="image of calender">
-                            <div>
+                            <div class="ml-4">
                                 <p>Wed, <br><span class="font-bold">Jul 28, 2025</span></p>
                             </div>
                         </div>
                     </div>
                     <!-- task -->
-                    <div>
-                        <!-- fix mobile -->
-                        <div>
-                            <div>
-                                <small>ShopEase</small>
-                                <h3>Fix Mobile Button Issue </h3>
-                                <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works
+                    <div class="grid grid-cols-3 gap-9 mx-6 mt-6 mb-8">
+                        <!-- card 1 -->
+                        <div class="bg-[rgba(244,247,255,1)] rounded-xl p-6">
+                            <div class="border-dashed border-b-2 border-[rgba(55,82,253,0.2)]">
+                                <small class="bg-white py-2 px-4 rounded-lg">ShopEase</small>
+                                <h3 class="text-xl font-medium mt-4">Fix Mobile Button Issue </h3>
+                                <p class="bg-white mt-4 mb-3 rounded-lg p-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works
                                     properly
                                     and ensure onClick works properly</p>
                             </div>
-                            <div>
+                            <div class="flex items-center mt-4">
                                 <div>
-                                    <small>Deadline</small>
-                                    <time datetime="">21 March 2025</time>
+                                    <small>Deadline</small><br>
+                                    <time class="text-sm font-medium" datetime="">21 March 2025</time>
                                 </div>
                                 <div>
-                                    <button>Completed</button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- dark mode -->
-                        <div>
-                            <div>
-                                <small>CloudSync</small>
-                                <h3>Add Dark Mode</h3>
-                                <p>Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
-                            </div>
-                            <div>
-                                <div>
-                                    <small>Deadline</small>
-                                    <time datetime="">21 March 2025</time>
-                                </div>
-                                <div>
-                                    <button>Completed</button>
+                                    <button class="btn btn-primary ml-4">Completed</button>
                                 </div>
                             </div>
                         </div>
-                        <!-- optimize -->
-                        <div>
-                            <div>
-                                <small>SwiftPay</small>
-                                <h3>Optimize  Home page</h3>
-                                <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                        <!-- card 2 -->
+                        <div class="bg-[rgba(244,247,255,1)] rounded-xl p-6">
+                            <div class="border-dashed border-b-2 border-[rgba(55,82,253,0.2)]">
+                                <small class="bg-white py-2 px-4 rounded-lg">CloudSync</small>
+                                <h3 class="text-xl font-medium mt-4">Add Dark Mode</h3>
+                                <p class="bg-white mt-4 mb-3 rounded-lg p-4">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+                            </div>
+                            <div class="flex items-center mt-4">
+                                <div>
+                                    <small>Deadline</small><br>
+                                    <time class="text-sm font-medium" datetime="">21 March 2025</time>
+                                </div>
+                                <div>
+                                    <button class="btn btn-primary ml-4">Completed</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="bg-[rgba(244,247,255,1)] rounded-xl p-6">
+                            <div class="border-dashed border-b-2 border-[rgba(55,82,253,0.2)]">
+                                <small class="bg-white py-2 px-4 rounded-lg">SwiftPay</small>
+                                <h3 class="text-xl font-medium mt-4">Optimize  Home page</h3>
+                                <p class="bg-white mt-4 mb-3 rounded-lg p-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                                     and ensure onClick works properly</p>
                             </div>
-                            <div>
+                            <div class="flex items-center mt-4">
                                 <div>
-                                    <small>Deadline</small>
-                                    <time datetime="">21 March 2025</time>
+                                    <small>Deadline</small><br>
+                                    <time class="text-sm font-medium" datetime="">21 March 2025</time>
                                 </div>
                                 <div>
-                                    <button>Completed</button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- add emoji -->
-                        <div>
-                            <div>
-                                <small>Meta</small>
-                                <h3>Add new emoji 🤲</h3>
-                                <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                                    and ensure onClick works properly</p>
-                            </div>
-                            <div>
-                                <div>
-                                    <small>Deadline</small>
-                                    <time datetime="">21 March 2025</time>
-                                </div>
-                                <div>
-                                    <button>Completed</button>
+                                    <button class="btn btn-primary ml-4">Completed</button>
                                 </div>
                             </div>
                         </div>
-                        <!-- add integrate -->
-                        <div>
-                            <div>
-                                <small>Google LLC</small>
-                                <h3>Integrate OpenAI API</h3>
-                                <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                        <!-- card 4 -->
+                        <div class="bg-[rgba(244,247,255,1)] rounded-xl p-6">
+                            <div class="border-dashed border-b-2 border-[rgba(55,82,253,0.2)]">
+                                <small class="bg-white py-2 px-4 rounded-lg">Meta</small>
+                                <h3 class="text-xl font-medium mt-4">Add new emoji 🤲</h3>
+                                <p class="bg-white mt-4 mb-3 rounded-lg p-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                                     and ensure onClick works properly</p>
                             </div>
-                            <div>
+                            <div class="flex items-center mt-4">
                                 <div>
-                                    <small>Deadline</small>
-                                    <time datetime="">21 March 2025</time>
+                                    <small>Deadline</small><br>
+                                    <time class="text-sm font-medium" datetime="">21 March 2025</time>
                                 </div>
                                 <div>
-                                    <button>Completed</button>
+                                    <button class="btn btn-primary ml-4">Completed</button>
                                 </div>
                             </div>
                         </div>
-                        <!-- improve -->
-                        <div>
-                            <div>
-                                <small>Glassdoar</small>
-                                <h3>Improve Job searching </h3>
-                                <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                        <!-- card 5 -->
+                        <div class="bg-[rgba(244,247,255,1)] rounded-xl p-6">
+                            <div class="border-dashed border-b-2 border-[rgba(55,82,253,0.2)]">
+                                <small class="bg-white py-2 px-4 rounded-lg">Google LLC</small>
+                                <h3 class="text-xl font-medium mt-4">Integrate OpenAI API</h3>
+                                <p class="bg-white mt-4 mb-3 rounded-lg p-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                                     and ensure onClick works properly</p>
                             </div>
-                            <div>
+                            <div class="flex items-center mt-4">
                                 <div>
-                                    <small>Deadline</small>
-                                    <time datetime="">21 March 2025</time>
+                                    <small>Deadline</small><br>
+                                    <time class="text-sm font-medium" datetime="">21 March 2025</time>
                                 </div>
                                 <div>
-                                    <button>Completed</button>
+                                    <button class="btn btn-primary ml-4">Completed</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 6 -->
+                        <div class="bg-[rgba(244,247,255,1)] rounded-xl p-6">
+                            <div class="border-dashed border-b-2 border-[rgba(55,82,253,0.2)]">
+                                <small class="bg-white py-2 px-4 rounded-lg">Glassdoar</small>
+                                <h3 class="text-xl font-medium mt-4">Improve Job searching </h3>
+                                <p class="bg-white mt-4 mb-3 rounded-lg p-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                    and ensure onClick works properly</p>
+                            </div>
+                            <div class="flex items-center mt-4">
+                                <div>
+                                    <small>Deadline</small><br>
+                                    <time class="text-sm font-medium" datetime="">21 March 2025</time>
+                                </div>
+                                <div>
+                                    <button class="btn btn-primary ml-4">Completed</button>
                                 </div>
                             </div>
                         </div>
