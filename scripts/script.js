@@ -1,7 +1,6 @@
 // main page and blogs page link
 
 document.getElementById('btn-nav').addEventListener('click', function(){
-
     window.location.href = "./blogs.html";
 })
 
@@ -18,4 +17,9 @@ let currentDate = new Date();
 let dateTime = currentDate.toDateString();
 document.getElementById('current-date').innerHTML = dateTime;
 
+// completed button click add event listener
 
+document.getElementById('btn-card-one').addEventListener('click', function(){
+    alert('Board Updated Successfully');
+    
+})
