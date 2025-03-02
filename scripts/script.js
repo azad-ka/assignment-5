@@ -19,7 +19,65 @@ document.getElementById('current-date').innerHTML = dateTime;
 
 // completed button click add event listener
 
-document.getElementById('btn-card-one').addEventListener('click', function(){
+document.getElementById('btn-card-one').addEventListener('click', function(event){
     alert('Board Updated Successfully');
-    
+    event.target.disabled = true;
+    const reduction = getInnerTextById("assigned");
+    const newAssigned = reduction - 1;
+    setInnerTextByIdAndValue("assigned", newAssigned);
+    const add = getInnerTextById("add-nav");
+    const newAdd = add + 1 ;
+    setInnerTextByIdAndValue("add-nav",newAdd);
 })
+document.getElementById('btn-card-two').addEventListener('click', function(event){
+    alert('Board Updated Successfully');
+    event.target.disabled = true;
+    const reduction = getInnerTextById("assigned");
+    const newAssigned = reduction - 1;
+    setInnerTextByIdAndValue("assigned", newAssigned);
+    const add = getInnerTextById("add-nav");
+    const newAdd = add + 1 ;
+    setInnerTextByIdAndValue("add-nav",newAdd);
+})
+document.getElementById('btn-card-three').addEventListener('click', function(event){
+    alert('Board Updated Successfully');
+    event.target.disabled = true;
+    const reduction = getInnerTextById("assigned");
+    const newAssigned = reduction - 1;
+    setInnerTextByIdAndValue("assigned", newAssigned);
+    const add = getInnerTextById("add-nav");
+    const newAdd = add + 1 ;
+    setInnerTextByIdAndValue("add-nav",newAdd);
+})
+document.getElementById('btn-card-four').addEventListener('click', function(event){
+    alert('Board Updated Successfully');
+    event.target.disabled = true;
+    const reduction = getInnerTextById("assigned");
+    const newAssigned = reduction - 1;
+    setInnerTextByIdAndValue("assigned", newAssigned);
+    const add = getInnerTextById("add-nav");
+    const newAdd = add + 1 ;
+    setInnerTextByIdAndValue("add-nav",newAdd);
+})
+document.getElementById('btn-card-five').addEventListener('click', function(event){
+    alert('Board Updated Successfully');
+    event.target.disabled = true;
+    const reduction = getInnerTextById("assigned");
+    const newAssigned = reduction - 1;
+    setInnerTextByIdAndValue("assigned", newAssigned);
+    const add = getInnerTextById("add-nav");
+    const newAdd = add + 1 ;
+    setInnerTextByIdAndValue("add-nav",newAdd);
+})
+document.getElementById('btn-card-six').addEventListener('click', function(event){
+    alert('Board Updated Successfully');
+    alert('Congrats!!! You have completed all the current task')
+    event.target.disabled = true;
+    const reduction = getInnerTextById("assigned");
+    const newAssigned = reduction - 1;
+    setInnerTextByIdAndValue("assigned", newAssigned);
+    const add = getInnerTextById("add-nav");
+    const newAdd = add + 1 ;
+    setInnerTextByIdAndValue("add-nav",newAdd);
+})
+
