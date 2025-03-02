@@ -136,6 +136,6 @@ document.getElementById('btn-card-six').addEventListener('click', function (even
 
 // remove element from added file
 
-document.getElementById('history').addEventListener('click', function(){
+document.getElementById('history').addEventListener('click', function () {
     document.getElementById('added-element').innerHTML = "";
 })

@@ -1,3 +1,3 @@
-document.getElementById('btn-nav').addEventListener('click', function(){
-    window.location.href="./index.html";
+document.getElementById('btn-nav').addEventListener('click', function () {
+    window.location.href = "./index.html";
 })
