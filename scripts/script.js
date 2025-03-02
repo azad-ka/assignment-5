@@ -19,6 +19,7 @@ document.getElementById('current-date').innerHTML = dateTime;
 
 // completed button click add event listener
 
+// card-1
 document.getElementById('btn-card-one').addEventListener('click', function (event) {
     alert('Board Updated Successfully');
     event.target.disabled = true;
@@ -36,6 +37,8 @@ document.getElementById('btn-card-one').addEventListener('click', function (even
     `
     container.appendChild(div);
 })
+
+// card-2
 document.getElementById('btn-card-two').addEventListener('click', function (event) {
     alert('Board Updated Successfully');
     event.target.disabled = true;
@@ -53,6 +56,8 @@ document.getElementById('btn-card-two').addEventListener('click', function (even
     `
     container.appendChild(div);
 })
+
+// card-3
 document.getElementById('btn-card-three').addEventListener('click', function (event) {
     alert('Board Updated Successfully');
     event.target.disabled = true;
@@ -70,6 +75,8 @@ document.getElementById('btn-card-three').addEventListener('click', function (ev
     `
     container.appendChild(div);
 })
+
+// card-4
 document.getElementById('btn-card-four').addEventListener('click', function (event) {
     alert('Board Updated Successfully');
     event.target.disabled = true;
@@ -87,6 +94,8 @@ document.getElementById('btn-card-four').addEventListener('click', function (eve
     `
     container.appendChild(div);
 })
+
+// card-5
 document.getElementById('btn-card-five').addEventListener('click', function (event) {
     alert('Board Updated Successfully');
     event.target.disabled = true;
@@ -104,6 +113,8 @@ document.getElementById('btn-card-five').addEventListener('click', function (eve
     `
     container.appendChild(div);
 })
+
+// card-6
 document.getElementById('btn-card-six').addEventListener('click', function (event) {
     alert('Board Updated Successfully');
     alert('Congrats!!! You have completed all the current task')
