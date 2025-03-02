@@ -28,7 +28,7 @@ document.getElementById('btn-card-one').addEventListener('click', function (even
     const add = getInnerTextById("add-nav");
     const newAdd = add + 1;
     setInnerTextByIdAndValue("add-nav", newAdd);
-    const container = document.getElementById("activity-log");
+    const container = document.getElementById("added-element");
     const div = document.createElement("div");
     div.classList.add("bg-[rgba(244,247,255,1)]")
     div.innerHTML = `
@@ -45,7 +45,7 @@ document.getElementById('btn-card-two').addEventListener('click', function (even
     const add = getInnerTextById("add-nav");
     const newAdd = add + 1;
     setInnerTextByIdAndValue("add-nav", newAdd);
-    const container = document.getElementById("activity-log");
+    const container = document.getElementById("added-element");
     const div = document.createElement("div");
     div.classList.add("bg-[rgba(244,247,255,1)]")
     div.innerHTML = `
@@ -62,7 +62,7 @@ document.getElementById('btn-card-three').addEventListener('click', function (ev
     const add = getInnerTextById("add-nav");
     const newAdd = add + 1;
     setInnerTextByIdAndValue("add-nav", newAdd);
-    const container = document.getElementById("activity-log");
+    const container = document.getElementById("added-element");
     const div = document.createElement("div");
     div.classList.add("bg-[rgba(244,247,255,1)]")
     div.innerHTML = `
@@ -79,7 +79,7 @@ document.getElementById('btn-card-four').addEventListener('click', function (eve
     const add = getInnerTextById("add-nav");
     const newAdd = add + 1;
     setInnerTextByIdAndValue("add-nav", newAdd);
-    const container = document.getElementById("activity-log");
+    const container = document.getElementById("added-element");
     const div = document.createElement("div");
     div.classList.add("bg-[rgba(244,247,255,1)]")
     div.innerHTML = `
@@ -96,7 +96,7 @@ document.getElementById('btn-card-five').addEventListener('click', function (eve
     const add = getInnerTextById("add-nav");
     const newAdd = add + 1;
     setInnerTextByIdAndValue("add-nav", newAdd);
-    const container = document.getElementById("activity-log");
+    const container = document.getElementById("added-element");
     const div = document.createElement("div");
     div.classList.add("bg-[rgba(244,247,255,1)]")
     div.innerHTML = `
@@ -114,7 +114,7 @@ document.getElementById('btn-card-six').addEventListener('click', function (even
     const add = getInnerTextById("add-nav");
     const newAdd = add + 1;
     setInnerTextByIdAndValue("add-nav", newAdd);
-    const container = document.getElementById("activity-log");
+    const container = document.getElementById("added-element");
     const div = document.createElement("div");
     div.classList.add("bg-[rgba(244,247,255,1)]")
     div.innerHTML = `
@@ -125,5 +125,6 @@ document.getElementById('btn-card-six').addEventListener('click', function (even
 
 // remove element from added file
 
-
-
+document.getElementById('history').addEventListener('click', function(){
+    document.getElementById('added-element').innerHTML = "";
+})
